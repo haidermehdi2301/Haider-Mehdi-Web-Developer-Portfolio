@@ -69,15 +69,18 @@ h4 {
 }
 
 .profile {
-  text-align: center;
+  height: auto; /* Allow container to adapt */
   padding: 20px;
 }
 
 .profile-pic {
   width: 150px;
+  height: auto;
   border-radius: 50%;
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
 }
+
 
 .skill-row {
   display: flex;
